@@ -1,0 +1,28 @@
+{
+  "tauri": {
+    "bundle": {
+      "identifier": "com.example.videoeditor",
+      "version": "1.0.0",
+      "targets": "macos"
+    },
+    "windows": [{
+      "title": "视频字幕编辑器",
+      "width": 1200,
+      "height": 600,
+      "resizable": true,
+      "center": true
+    }],
+    "allowlist": {
+      "all": false,
+      "fs": {
+        "all": true,
+        "read": true,
+        "write": true
+      }
+    },
+    "frontend": {
+      "distDir": "src/web",
+      "devPath": "http://localhost:1420"
+    }
+  }
+}

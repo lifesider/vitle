@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>视频字幕编辑器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-preview">
+            <video id="previewVideo" controls></video>
+            <input type="file" id="videoInput" accept="video/*">
+        </div>
+        <div class="text-editor">
+            <textarea id="subtitleText" placeholder="编辑字幕文本..."></textarea>
+            <button id="exportBtn">导出视频</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.video-preview {
+    flex: 1;
+    min-width: 600px;
+}
+
+#previewVideo {
+    width: 100%;
+    height: 400px;
+    background: #000;
+}
+
+.text-editor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#subtitleText {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+#exportBtn {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#exportBtn:hover {
+    background: #1976D2;
+}
